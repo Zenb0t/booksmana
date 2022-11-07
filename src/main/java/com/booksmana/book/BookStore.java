@@ -1,9 +1,4 @@
-/**
- * Project: A01169959Lab5
- * File: Lab5.java
- */
-
-package a01169959.book;
+package com.booksmana.book;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -22,26 +17,26 @@ import org.apache.logging.log4j.core.config.ConfigurationSource;
 import org.apache.logging.log4j.core.config.Configurator;
 import org.apache.logging.log4j.core.config.DefaultConfiguration;
 
-import a01169959.data.Book;
-import a01169959.data.BookDAO;
-import a01169959.data.Customer;
-import a01169959.data.CustomerDAO;
-import a01169959.data.Purchase;
-import a01169959.data.PurchaseDAO;
-import a01169959.io.BookReader;
-import a01169959.io.BookReport;
-import a01169959.io.PurchasesReader;
-import a01169959.ui.MainFrame;
-import a01169959.io.CustomerReader;
-import a01169959.io.CustomerReport;
-import a01169959.db.Database;
-import a01169959.db.DbConstants;
-import a01169959.io.PurchaseReport;
-import a01169959.util.ApplicationException;
-import a01169959.util.Sorter;
+import com.booksmana.data.Book;
+import com.booksmana.data.BookDAO;
+import com.booksmana.data.Customer;
+import com.booksmana.data.CustomerDAO;
+import com.booksmana.data.Purchase;
+import com.booksmana.data.PurchaseDAO;
+import com.booksmana.io.BookReader;
+import com.booksmana.io.BookReport;
+import com.booksmana.io.PurchasesReader;
+import com.booksmana.ui.MainFrame;
+import com.booksmana.io.CustomerReader;
+import com.booksmana.io.CustomerReport;
+import com.booksmana.db.Database;
+import com.booksmana.db.DbConstants;
+import com.booksmana.io.PurchaseReport;
+import com.booksmana.util.ApplicationException;
+import com.booksmana.util.Sorter;
 
 /**
- * @author Felipe Mendes Ribeiro , A01169959
+ * @author Felipe Mendes Ribeiro
  *
  */
 public class BookStore    {

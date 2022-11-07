@@ -1,18 +1,18 @@
-package a01169959.book;
+package com.booksmana.book;
 
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
-import a01169959.book.BookStore;
-import a01169959.data.Book;
-import a01169959.data.Customer;
-import a01169959.data.Purchase;
-import a01169959.io.BookReader;
-import a01169959.io.CustomerReader;
-import a01169959.io.PurchasesReader;
-import a01169959.util.ApplicationException;
+import com.booksmana.book.BookStore;
+import com.booksmana.data.Book;
+import com.booksmana.data.Customer;
+import com.booksmana.data.Purchase;
+import com.booksmana.io.BookReader;
+import com.booksmana.io.CustomerReader;
+import com.booksmana.io.PurchasesReader;
+import com.booksmana.util.ApplicationException;
 
 public class Controller {
 
